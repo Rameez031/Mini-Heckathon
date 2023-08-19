@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 247, 255);
+}
+
+.container {
+    max-width: 400px;
+    min-width: 200px;
+    height: 90;
+    margin: 100px auto;
+    padding: 20px;
+
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #2080c4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.user-profile img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+.main {
+    padding: 20px;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html body {
+    background-color: rgb(1, 45, 41);
+}
+
+header {
+    background-color: rgb(74, 115, 227);
+    height: 90px;
+    width: 1600px;
+}
+
+header h1 {
+    font-family: cursive;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+    padding-left: 20px;
+}
+
+header p {
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
